@@ -79,6 +79,7 @@ class ControllerInstallStep3 extends Controller {
 			$output .= 'define(\'DB_PREFIX\', \'' . addslashes($this->request->post['db_prefix']) . '\');' . "\n";
 
 
+			echo $output;
 
 			$file = fopen(DIR_OPENCART . 'config.php', 'w');
 
@@ -169,7 +170,7 @@ class ControllerInstallStep3 extends Controller {
 
 			echo $output;
 			// $this->response->redirect($this->url->link('install/step_4'));
-
+			die();
 		}
 
 
