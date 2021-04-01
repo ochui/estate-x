@@ -6,7 +6,7 @@ define('HTTP_SERVER', 'http://localhost/RealEstate_custom_script/');
 define('HTTPS_SERVER', 'http://localhost/RealEstate_custom_script/');
 
 // DIR
-define('DIR_APPLICATION', '/opt/lampp/htdocs/RealEstate_custom_script/catalog/');
+// define('DIR_APPLICATION', '/opt/lampp/htdocs/RealEstate_custom_script/catalog/');
 define('DIR_SYSTEM', '/opt/lampp/htdocs/RealEstate_custom_script/system/');
 define('DIR_IMAGE', '/opt/lampp/htdocs/RealEstate_custom_script/image/');
 define('DIR_LANGUAGE', '/opt/lampp/htdocs/RealEstate_custom_script/catalog/language/');
