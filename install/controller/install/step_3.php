@@ -14,7 +14,7 @@ class ControllerInstallStep3 extends Controller {
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 
-			$this->load->model('install/install');
+			// $this->load->model('install/install');
 
 
 
