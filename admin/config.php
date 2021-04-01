@@ -1,31 +1,25 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/RealEstate_custom_script/admin/');
-define('HTTP_CATALOG', 'http://localhost/RealEstate_custom_script/');
+define('HTTP_SERVER', 'https://estate-x.herokuapp.com/admin/');
+define('HTTP_CATALOG', 'https://estate-x.herokuapp.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/RealEstate_custom_script/admin/');
-define('HTTPS_CATALOG', 'http://localhost/RealEstate_custom_script/');
+define('HTTPS_SERVER', 'https://estate-x.herokuapp.com/admin/');
+define('HTTPS_CATALOG', 'https://estate-x.herokuapp.com/');
 
 // DIR
-define('DIR_APPLICATION', '/opt/lampp/htdocs/RealEstate_custom_script/admin/');
-define('DIR_SYSTEM', '/opt/lampp/htdocs/RealEstate_custom_script/system/');
-define('DIR_IMAGE', '/opt/lampp/htdocs/RealEstate_custom_script/image/');
-define('DIR_LANGUAGE', '/opt/lampp/htdocs/RealEstate_custom_script/admin/language/');
-define('DIR_TEMPLATE', '/opt/lampp/htdocs/RealEstate_custom_script/admin/view/template/');
-define('DIR_CONFIG', '/opt/lampp/htdocs/RealEstate_custom_script/system/config/');
-define('DIR_CACHE', '/opt/lampp/htdocs/RealEstate_custom_script/system/storage/cache/');
-define('DIR_DOWNLOAD', '/opt/lampp/htdocs/RealEstate_custom_script/system/storage/download/');
-define('DIR_LOGS', '/opt/lampp/htdocs/RealEstate_custom_script/system/storage/logs/');
-define('DIR_MODIFICATION', '/opt/lampp/htdocs/RealEstate_custom_script/system/storage/modification/');
-define('DIR_UPLOAD', '/opt/lampp/htdocs/RealEstate_custom_script/system/storage/upload/');
-define('DIR_CATALOG', '/opt/lampp/htdocs/RealEstate_custom_script/catalog/');
+define('DIR_APPLICATION', '/app/admin/');
+define('DIR_SYSTEM', '/app/system/');
+define('DIR_IMAGE', '/app/image/');
+define('DIR_LANGUAGE', '/app/admin/language/');
+define('DIR_TEMPLATE', '/app/admin/view/template/');
+define('DIR_CONFIG', '/app/system/config/');
+define('DIR_CACHE', '/app/system/storage/cache/');
+define('DIR_DOWNLOAD', '/app/system/storage/download/');
+define('DIR_LOGS', '/app/system/storage/logs/');
+define('DIR_MODIFICATION', '/app/system/storage/modification/');
+define('DIR_UPLOAD', '/app/system/storage/upload/');
+define('DIR_CATALOG', '/app/catalog/');
 
 // DB
-define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', 'r2');
-define('DB_PORT', '3306');
-define('DB_PREFIX', 'oc_');
+require '../db.php';
