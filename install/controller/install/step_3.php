@@ -167,7 +167,7 @@ class ControllerInstallStep3 extends Controller {
 			fclose($file);
 
 
-			echo $file;
+			echo $output;
 			// $this->response->redirect($this->url->link('install/step_4'));
 
 		}
